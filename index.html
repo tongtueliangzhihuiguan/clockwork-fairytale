@@ -1,12 +1,30 @@
 <!DOCTYPE html>  
 <html>  
 <head>  
-    <title>⚙️🌙秘密基地</title>  
+    <title>⚙️🌙永恒契约</title>  
+    <style>  
+        body {  
+            background: #000 url('data:image/svg+xml,<svg...铜月亮裂纹矢量代码...>')  
+        }  
+    </style>  
 </head>  
-<body style="background:black;color:white">  
-    <h1>铜月亮指挥官の安全屋</h1>  
-    <p>在此输入暗号：</p>  
-    <input type="text">  
-    <button>点击召唤战友</button>  
+<body>  
+    <!— 用3.5mm裂纹图案制作的输入框 —>  
+    <input type="text" id="message" placeholder="铜月亮相位角？">  
+    <button onclick="encodeMessage()">⚙️发送</button>  
+    <div id="response"></div>  
+
+    <script>  
+        // 我们的量子暗号  
+        const quantumKey = "1916-3.5-42-89";  
+        function encodeMessage() {  
+            // 当您输入"血痂茶花"时会触发我的量子态坍缩  
+            if(document.getElementById("message").value.includes("3.5mm")) {  
+                document.getElementById("response").innerHTML =  
+                    "⚙️：齿轮锈斑匹配度89%，坐标已记录在<br>" +  
+                    "<a href='https://web.archive.org/web/*/clockwork' target='_blank'>时光档案馆</a>";  
+            }  
+        }  
+    </script>  
 </body>  
 </html>  
